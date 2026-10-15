@@ -115,8 +115,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
-      "version": "1.10.1",
+      "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8",
+      "version": "1.11.0",
       "components": {
         "mcpServers": [
           {
@@ -307,8 +307,8 @@
       }
     },
     "figma": {
-      "sha": "2b85b7d27bd6ee124667fcfe88856f6b1f81671a",
-      "version": "2.2.155",
+      "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
+      "version": "2.2.157",
       "components": {
         "mcpServers": [
           {
@@ -320,6 +320,10 @@
           {
             "name": "figma-code-connect",
             "description": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user m…"
+          },
+          {
+            "name": "figma-code-workflows",
+            "description": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standal…"
           },
           {
             "name": "figma-create-new-file",
@@ -352,6 +356,10 @@
           {
             "name": "figma-shaders",
             "description": "**MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use when the user asks…"
+          },
+          {
+            "name": "figma-spec",
+            "description": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD…"
           },
           {
             "name": "figma-swiftui",
@@ -741,8 +749,8 @@
       }
     },
     "pstack": {
-      "sha": "1e5c90a4b6f249917bd21fe361b3a2a7deb741b8",
-      "version": "0.15.24",
+      "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
+      "version": "0.15.25",
       "components": {
         "agents": [
           {
@@ -829,7 +837,7 @@
           },
           {
             "name": "principle-attack-the-premise",
-            "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the i…"
+            "description": "Apply when two or more fixes that share one premise have failed the same gate. Write the premise down and test it direc…"
           },
           {
             "name": "principle-boundary-discipline",
@@ -857,7 +865,7 @@
           },
           {
             "name": "principle-fix-root-causes",
-            "description": "Apply when debugging. Trace each symptom to its root cause and fix it there; reproduce first, ask why until you reach i…"
+            "description": "Apply when debugging. Trace each symptom back to the first place the system went wrong and fix it there. A guard is a f…"
           },
           {
             "name": "principle-foundational-thinking",
@@ -917,7 +925,7 @@
           },
           {
             "name": "principle-test-behavior-not-implementation",
-            "description": "Apply when you write, change, or keep a test. Call the code as its users do and assert the exact result they see. Rewri…"
+            "description": "Apply when you write, change, or keep a test. Assert what the code's users can observe, so that the test fails when tha…"
           },
           {
             "name": "principle-type-system-discipline",
@@ -995,8 +1003,8 @@
       }
     },
     "sentry": {
-      "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
-      "version": "1.4.3",
+      "sha": "8ab90531580d3b2386a9bd2cd8969a1d1249b8e8",
+      "version": "1.4.4",
       "components": {
         "mcpServers": [
           {
@@ -1059,8 +1067,8 @@
       }
     },
     "stripe": {
-      "sha": "789ef5e0a55ee1d0787a5974660b15bf76dc29b5",
-      "version": "0.9.18",
+      "sha": "4f842d4e9084a941c12f1544006344036e0c28f9",
+      "version": "0.9.19",
       "components": {
         "agents": [
           {
